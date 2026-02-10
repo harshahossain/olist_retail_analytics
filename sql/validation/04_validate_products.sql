@@ -48,6 +48,7 @@ SELECT COUNT(*) AS invalid_weight
 FROM products
 WHERE product_weight_g <= 0;
 -- Returned: 4 rows with invalid product_weight_g
+-- Values are left unchanged as they likely represent missing data in source dataset.
 
 SELECT COUNT(*) AS invalid_dimensions
 FROM products
