@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS orders (
         REFERENCES customers(customer_id)
 );
 
--- Verify table creation
+-- Verify table creation (Returns every table in public schema, including orders)
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'public';

@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS products (
     product_height_cm INT,
     product_width_cm INT
 );
--- Verify table creation
+-- Verify table creation (Returns every table in public schema, including products)
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'public';

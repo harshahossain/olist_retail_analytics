@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS order_items (
 
     -- Note: product_id → products, seller_id → sellers FKs added after those tables exist
 );
--- Verify table creation
+-- Verify table creation (Returns every table in public schema, including order_items)
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'public';

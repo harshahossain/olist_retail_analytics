@@ -4,6 +4,8 @@ File: 03_load_order_items.sql
 Purpose:
 - Loads raw order_items data from CSV into the order_items table
 - Assumes order_items table already exists
+
+Note:
 - Absolute path can be replaced with relative path if using psql
 */
 COPY order_items (

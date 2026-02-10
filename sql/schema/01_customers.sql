@@ -19,7 +19,7 @@ CREATE TABLE customers (
     customer_state CHAR(2)
 );
 
--- Verify table creation
+-- Verify table creation (Returns every table in public schema, including customers)
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'public';

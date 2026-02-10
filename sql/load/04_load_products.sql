@@ -17,7 +17,7 @@ COPY products (
     product_height_cm,
     product_width_cm
 )
-FROM 'C:\workspace\DSProject\olist_retail_analytics\data\raw\olist_products_dataset.csv'
+FROM '<YOUR_ABSOLUTE_PATH>\data\raw\olist_products_dataset.csv'
 DELIMITER ','
 CSV HEADER;
 
