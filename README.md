@@ -179,6 +179,30 @@ Validation followed a consistent pattern for each entity
 
 These checks confirm that the dataset is structurally clean and suitable for business analysis.
 
-# Validation Outcome
+### Validation Outcome
 
 The dataset demonstrated high structural consistency with minimal anomalies. This allowed analytical queries to be built on a trusted and validated foundation.
+
+# The Analysis
+
+### Key Revenue Insights
+
+- Total revenue generated: ~16M
+- Average order value: ~161
+- Strong growth throughout 2017
+- Major seasonal spike in November 2017 (likely Black Friday)
+- 2018 shows stabilized monthly revenue around ~1M
+- Late 2018 decline reflects dataset cutoff, not performance drop
+
+### Key Geographic Insights
+
+- **_São Paulo (SP)_** contributes ~37.5% of total revenue, making it the dominant market.
+- **_Rio de Janeiro (RJ)_** and **_Minas Gerais (MG)_** contribute ~13.4% and ~11.7% respectively. Together with SP, the top three states account for ~62.6% of total revenue, highlighting geographic concentration.
+- **_RS, PR,_** and **_SC_** make up smaller but notable portions (~5–4% each).
+- SP drives **_high order volume_** (41,745 orders) but **_lower AOV_** (~143.69), suggesting high-frequency but lower-value purchases.
+- RJ shows **_fewer orders_** but a **_higher AOV_** (~166.85), indicating more premium spending behavior.
+- This distribution indicates strategic opportunities:
+  - Expand into lower-revenue states to diversify risk
+  - Tailor marketing or product offerings per state based on order behavior
+
+These insights make clear where revenue is concentrated and where growth opportunities exist.
