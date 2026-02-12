@@ -198,11 +198,50 @@ The dataset demonstrated high structural consistency with minimal anomalies. Thi
 
 - **_São Paulo (SP)_** contributes ~37.5% of total revenue, making it the dominant market.
 - **_Rio de Janeiro (RJ)_** and **_Minas Gerais (MG)_** contribute ~13.4% and ~11.7% respectively. Together with SP, the top three states account for ~62.6% of total revenue, highlighting geographic concentration.
-- **_RS, PR,_** and **_SC_** make up smaller but notable portions (~5–4% each).
-- SP drives **_high order volume_** (41,745 orders) but **_lower AOV_** (~143.69), suggesting high-frequency but lower-value purchases.
-- RJ shows **_fewer orders_** but a **_higher AOV_** (~166.85), indicating more premium spending behavior.
+- **_Rio Grande do Sul(RS), Paraná(PR),_** and **_Santa Catarina(SC)_** make up smaller but notable portions (~5–4% each).
+- SP drives **_high order volume_** (41,745 orders) but **_lower Average Order Value_** (~143.69), suggesting high-frequency but lower-value purchases.
+- RJ shows **_fewer orders_** but a **_higher AOV(Average Order Value)_** (~166.85), indicating more premium spending behavior.
 - This distribution indicates strategic opportunities:
   - Expand into lower-revenue states to diversify risk
   - Tailor marketing or product offerings per state based on order behavior
 
 These insights make clear where revenue is concentrated and where growth opportunities exist.
+
+### Key Category Insights
+
+**Revenue Distribution**
+
+- The top-performing category is **_beleza_saude(Beauty & Health)_**, contributing ~9.1% of total revenue (~1.44M).
+- No single category dominates revenue — even the highest category contributes less than 10%, indicating strong product diversification.
+- The top 10 categories together account for ~62% of total revenue.
+
+This suggests the marketplace is not dependent on a single product vertical.
+
+**Category Performance Patterns**
+
+- Categories like **_cama_mesa_banho(Bed Table Bath)_** and **_beleza_saude(Beauty & Health)_** generate high order volume with moderate AOV(Average Order Value), indicating recurring consumer demand.
+- Categories such as **_relogios_presentes(Gift Watches)_**, **_moveis_escritorio(Office Furniture)_**, and **_instrumentos_musicais(Musical Instrument)_** show significantly higher Average Order Values, reflecting premium or discretionary purchases.
+- Extremely high-ticket categories like **_pcs(Computers)_** have very high AOV(Average Order Value) (~1286) but low order volume, contributing revenue spikes rather than steady volume.
+
+This highlights a mix of:
+
+- Stable, repeat-demand products
+- Higher-margin, lower-frequency premium good-
+
+**Pareto (80/20) Analysis**
+
+- Approximately **_17 product categories (~24% of total categories)_** generate **_~80% of total revenue._**
+- The remaining ~75% of categories contribute only ~20% of revenue, forming a classic long-tail distribution.
+- This structure indicates a strong revenue core supported by a broad assortment catalog.
+
+**Data Quality Observation**
+
+- **_~1.31%_** of total revenue (~207K) is associated with products **_missing a category_** label.
+- While not materially large, this indicates minor data classification inconsistencies that could affect reporting accuracy.
+
+### Key Customer Insights
+
+- 97% of customers are one-time buyers; only 3% are repeat buyers.
+- Repeat customers generate only ~5% of total revenue (~864K).
+- Majority of revenue comes from new customer acquisition.
+- Retention-focused strategies represent significant revenue opportunity.
