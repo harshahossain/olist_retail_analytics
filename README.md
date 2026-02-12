@@ -1,5 +1,7 @@
 # End-to-End E-Commerce Analytics Case Study
 
+# Introduction
+
 This project presents an end-to-end e-commerce analytics case study built using PostgreSQL. Starting from raw CSV files, the dataset was transformed into a structured relational database with properly defined primary keys, foreign keys, and integrity constraints.
 
 The objective was not only to analyze business performance, but to simulate a real-world data workflow — where database design, validation, and data quality checks come before analytical insights.
